@@ -1,0 +1,80 @@
+* { 
+    margin:0px;
+    padding: 0px;
+    outline: none !important;
+    text-align: center;
+}
+
+body {height: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color:white;
+        text-align: center; 
+        background-color: #e6ebff;
+}
+
+.inputwrapper { 
+    border-bottom: 1px solid #CCCCCC;
+    min-width: 350px;
+    min-height: 100px;
+    background-color: whitesmoke;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(118,159,255,0.42); 
+box-shadow: 5px 5px 15px 5px rgba(118,159,255,0.42);
+}
+
+.vremenoslav { 
+    padding: 30px 0px 10px 0px;
+    font-size: 40px;
+    color: #CCCCCC;
+}
+
+input{
+    padding:10px;
+    border-radius: 5px;
+    border:0px solid;
+    background-color: #e2e2e2;
+    text-align:left;
+    margin: 20px 0px;
+    }
+
+.lokacija { 
+    color: black;
+}
+
+
+
+
+/* card style */
+
+.cardwrapper { 
+    display:flex;
+    justify-content: center;
+    
+}
+
+.weather { 
+    border: 1px #CCCCCC solid;
+    border-radius: 20px;
+    margin: 50px 0px;
+    min-width: 400px;
+    background-color: whitesmoke;
+    width: 200px;
+    padding: 30px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(118,159,255,0.42); 
+box-shadow: 5px 5px 15px 5px rgba(118,159,255,0.42);
+}   
+
+.lokacija  { 
+    margin:30px;
+}
+
+.datum { 
+    margin-bottom: 30px;
+}
+
+.temp { 
+    margin-bottom:30px
+}
+
+h4 {
+    color:#CCCCCC;
+}
